@@ -1,6 +1,6 @@
 ---
 slug: {{slug}}-day{{day}}
-title: {{ day }}. {{ title }}s
+title: {{ day }}. {{ title }}
 authors: [ authors ]
 draft: true
 hide_table_of_contents: false
@@ -27,7 +27,20 @@ description: "{{ description }}"
 
 </head>
 
-Welcome to `Day {{ day }}` of {{ campaign }}!
+<!-- 
+
+PLEASE READ THIS BEFORE EDITING THIS FILE
+
+- This file is a template for the daily posts of the #30DaysOf series.
+
+- TWITTER IMAGE: 
+  - Create a image suitable for twitter and place it in the same folder as this file. 
+  - The image must be named twitter.png
+  - The ideal image size is 1600x900 pixels.
+
+ -->
+
+# Welcome to `Day {{ day }}` of {{ campaign }}!
 
 ## What We'll Cover
 
