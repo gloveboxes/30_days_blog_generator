@@ -54,5 +54,5 @@ Run the generator.py script to generate the blog posts. It will create a folder 
 The generator will validate the blog.yaml file and will fail if the file is not valid.
 
 ```bash
-python3 generator.py <optional specify the output directory. The default output folder is blog>
+python3 generator.py <optionally, specify the output directory. The default output folder is blog>
 ```
