@@ -1,13 +1,14 @@
 """
-Python app to read a blog.yaml and generate a blog file structure 
+Python app to read a blog.yaml and generate a blog file structure
 and index.md markdown file from a template
 """
 
+import datetime
 import os
 import sys
 import pathlib
 import jinja2   # https://pypi.org/project/Jinja2/
-import yaml
+import oyaml as yaml
 
 TEMPLATE_FILE = "template.md"
 DAYS_FILE = "blog.yaml"
@@ -15,6 +16,8 @@ DAYS_FILE = "blog.yaml"
 
 def validate_data(data):
     """Validate the yaml file."""
+
+    previous_date = None
 
     if 'campaign' not in data:
         print("Missing campaign in yaml file")
@@ -44,6 +47,25 @@ def validate_data(data):
             return False
         if 'authors' not in item:
             print("Missing authors in yaml file")
+            print(item)
+            return False
+
+        try:
+
+            item_date = datetime.datetime.strptime(
+                item['folder'][:10], '%Y-%m-%d').date()
+
+            # compare the date with the previous date
+            if previous_date is not None and item_date < previous_date:
+                print("Dates are not in order")
+                print(item)
+                return False
+
+            previous_date = item_date
+
+        except ValueError:
+            print(
+                "Invalid date in yaml file - the folder name must be in the format YYYY-MM-DD and optionally, followed with a dash and short description.")
             print(item)
             return False
 

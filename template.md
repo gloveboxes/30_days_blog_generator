@@ -1,5 +1,5 @@
 ---
-slug: {{slug}}-{{name}}
+slug: {{slug}}-day{{day}}
 title: {{ day }}. {{ title }}s
 authors: [ authors ]
 draft: true
@@ -16,24 +16,24 @@ description: "{{ description }}"
 <head>
 {% if twitter %}
   <meta name="twitter:url" content="{{ blog_url }}/{{ slug }}-day{{ day }}" />
-  <meta name="twitter:title" content="{{ title }}" />s
+  <meta name="twitter:title" content="{{ title }}" />
   <meta name="twitter:description" content="{{ description }}" />
   <meta name="twitter:image" content="{{ blog_url }}/{{ slug }}-day{{ day }}/twitter.png" />
   <meta name="twitter:card" content="summary_large_image" />
   {% if twitter['creator'] %}<meta name="twitter:creator" content="{{ twitter['creator'] }}" />{% endif %}
   {% if twitter['site'] %}<meta name="twitter:site" content="@{{ twitter['site'] }}" /> {% endif %}
   {% endif %}
-  <link rel="canonical" 
-    {% if canonical %}href="{{ canonical }}"
-    {% else %} href="{{ blog_url }}/{{ slug }}-day{{ day }}" /> {% endif %}
+  <link rel="canonical" {% if canonical %}href="{{ canonical }}" {% else %} href="{{ blog_url }}/{{ slug }}-day{{ day }}" {% endif %} />
+
 </head>
 
 Welcome to `Day {{ day }}` of {{ campaign }}!
 
 ## What We'll Cover
 
-<!-- 
+<!--
 - Azure OpenAI Service
 - Azure OpenAI Python SDK
  -->
 
+## Introduction

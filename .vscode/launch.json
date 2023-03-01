@@ -11,7 +11,7 @@
             "program": "generator.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["test"]
+            "args": []
         }
     ]
 }
