@@ -5,7 +5,7 @@ The #30DaysOf Python app will scofold out the blog structure for a #30Days blog 
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Content Configuration
@@ -49,5 +49,5 @@ campaign:
 Run the generator.py script to generate the blog posts. It will create a folder for each day in the output directory.
 
 ```bash
-python generator.py <optional output directory else defaults to blog>
+python3 generator.py <optional output directory else defaults to blog>
 ```
