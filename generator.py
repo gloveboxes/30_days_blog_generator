@@ -5,10 +5,15 @@ and index.md markdown file from a template
 
 import datetime
 import os
-import sys
 import pathlib
 import jinja2   # https://pypi.org/project/Jinja2/
 import oyaml as yaml
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-o", "--output")
+parser.add_argument("-f", "--folder")
+
 
 TEMPLATE_FILE = "template.md"
 DAYS_FILE = "blog.yaml"
@@ -72,10 +77,11 @@ def validate_data(data):
     return True
 
 
-def main(args):
-    """RGenerate blog items from yaml file."""
+def main(output_folder, blog_item):
+    """Generate blog items from yaml file."""
 
-    output_folder = args[1] if len(args) > 1 else 'blog'
+    output_folder = output_folder if output_folder else 'blog'
+
     day = 0
 
     # Read the yaml file
@@ -99,6 +105,9 @@ def main(args):
         item['slug'] = data['campaign']['slug']
         item['blog_url'] = data['campaign']['blog_url']
 
+        if blog_item and item['folder'] != blog_item:
+            continue
+
         output_text = template.render(item)
 
         pathlib.Path(os.path.join(output_folder, item['folder'])).mkdir(
@@ -112,4 +121,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-    main(sys.argv)
+
+    args = parser.parse_args()
+
+    main(args.output, args.folder)

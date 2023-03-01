@@ -54,5 +54,19 @@ Run the generator.py script to generate the blog posts. It will create a folder 
 The generator will validate the blog.yaml file and will fail if the file is not valid.
 
 ```bash
-python3 generator.py <optionally, specify the output directory. The default output folder is blog>
+python3 generator.py 
+```
+
+### Optional parameters
+
+The default output folder is `blog`, you can override the default output directory.
+
+```bash
+python3 generator.py -o 30DaysOfAzureAI
+```
+
+Update a specific day's folder.
+
+```bash
+python3 generator.py -f 2023-04-03-openia-sdk
 ```
