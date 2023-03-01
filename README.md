@@ -7,6 +7,11 @@ The #30DaysOf Python app will scaffold out the blog structure for a #30Days blog
 
 ## Installation
 
+Tested on 
+1. macOS (Venture), 
+1. Windows 11 on Intel and Windows 11 on ARM, 
+1. Ubuntu 20.04/22.04 on Intel and ARM.
+
 ```bash
 pip3 install -r requirements.txt
 ```
