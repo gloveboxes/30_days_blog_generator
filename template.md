@@ -37,3 +37,5 @@ Welcome to `Day {{ day }}` of {{ campaign }}!
  -->
 
 ## Introduction
+
+{{ description }}
