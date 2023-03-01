@@ -41,7 +41,7 @@ campaign:
         authors: [nitya]
         keywords: [ai-april, azure open ai service]
         tags: [Azure AI, developer tools, onboarding, power platform fundamentals, 30DaysOfLowCode, recap]
-        canonical:
+        canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
         twitter:
           creator: dglover
           site: AzureAdvocates
