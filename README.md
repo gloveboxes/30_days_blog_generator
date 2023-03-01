@@ -42,12 +42,12 @@ campaign:
         twitter:
           creator: dglover
           site: AzureAdvocates
-```yaml
+```
 
 ## Usage
 
 Run the generator.py script to generate the blog posts. It will create a folder for each day in the output directory.
 
 ```bash
-python generator.py <output directory>
+python generator.py <optional output directory else defaults to blog>
 ```
