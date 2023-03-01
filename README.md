@@ -22,21 +22,21 @@ campaign:
 
   days:
       - folder: 2023-03-29-openia-intro
-        title: Hello, Azure OpenAI Service!
+        title: kick starting AI April!
         description: "Welcome to #AiApril! Join us for #30DaysOfAzureAI learning, skilling and discussions at https://aka.ms/ai-april"
         authors: [dglover, nitya]
         keywords: [ai-april, azure open ai]
-        tags: [Azure AI, developer tools, onboarding, power platform fundamentals, 30DaysOfLowCode, recap]
+        tags: [Azure AI, developer tools, onboarding, azure ai fundamentals, 30DaysOfAzureAI, recap]
         canonical:
         twitter:
           creator: dglover
           site: AzureAdvocates
           
-      - folder: 2023-03-29-openia-api
-        title: Hello, Azure OpenAI Service!
-        description: "Welcome to #AiApril! Join us for #30DaysOfAzureAI learning, skilling and discussions at https://aka.ms/ai-april"
-        authors: [dglover, nitya]
-        keywords: [ai-april, azure open ai]
+      - folder: 2023-04-03-openia-sdk
+        title: Dive into Azure OpenAI Service sdk
+        description: "Let's dive into Azure OpenAI Service SDK"
+        authors: [nitya]
+        keywords: [ai-april, azure open ai service]
         tags: [Azure AI, developer tools, onboarding, power platform fundamentals, 30DaysOfLowCode, recap]
         canonical:
         twitter:
@@ -47,6 +47,8 @@ campaign:
 ## Usage
 
 Run the generator.py script to generate the blog posts. It will create a folder for each day in the output directory.
+
+The generator will validate the blog.yaml file and will fail if the file is not valid.
 
 ```bash
 python3 generator.py <optional output directory else defaults to blog>
