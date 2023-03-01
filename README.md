@@ -1,6 +1,6 @@
 # 30DaysOf Blog Scafolding
 
-The #30DaysOf Python app will scofold out the blog structure for a #30Days blog campaign.
+The #30DaysOf Python app will scaffold out the blog structure for a #30Days blog campaign.
 
 1. The index.md file will be created for each day from the template.md file.
 1. The blog.yaml file will be used to configure the metadata for each day.
