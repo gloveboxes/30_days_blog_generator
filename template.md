@@ -1,7 +1,7 @@
 ---
 slug: {{slug}}-day{{day}}
-title: {{ day }}. {{ title }}
-authors: [ authors ]
+title: "{{ day }}. {{ title }}"
+authors: {{ authors }}
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
@@ -40,7 +40,7 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
  -->
 
-# Welcome to `Day {{ day }}` of {{ campaign }}!
+## Welcome to _Day {{ day }}_ of {{ campaign }}!
 
 ## What We'll Cover
 
@@ -50,7 +50,7 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 - Covered 3
  -->
 
-![Empty Banner Placeholder](banner.png)
+<!-- ![Empty Banner Placeholder](banner.png) -->
 
 ## Introduction
 

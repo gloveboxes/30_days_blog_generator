@@ -4,8 +4,8 @@ campaign:
   blog_url: https://microsoft.github.io/Low-Code/blog
 
   days:
-      - folder: 2023-03-29-openia-kickoff
-        title: kick Starting AI April!
+      - folder: 2023-03-29-kickoff
+        title: Kick Starting AI April!
         description: "Welcome to #AiApril! Join us for #30DaysOfAzureAI learning, skilling and discussions at [AI April](https://aka.ms/ai-april)"
         authors: [Dave]
         keywords: []
