@@ -45,10 +45,19 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 ## What We'll Cover
 
 <!--
-- Azure OpenAI Service
-- Azure OpenAI Python SDK
+- Covered 1
+- Covered 2
+- Covered 3
  -->
+
+![Empty Banner Placeholder](banner.png)
 
 ## Introduction
 
 {{ description }}
+
+<!-- Content for the day goes here. -->
+
+{% if canonical -%}
+To learn more, head over to the [original post]({{ canonical }}).
+{% endif %}
