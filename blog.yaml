@@ -20,7 +20,7 @@ campaign:
 
     - folder: 2023-04-03-azure-openai-services
       emoji: 🧮
-      title: "Intro to Azure OpenAI"
+      title: "Introduction to Azure OpenAI"
       description: "Let's dive into the Azure OpenAI Service"
       authors: [Dave]
       keywords: []
@@ -30,25 +30,25 @@ campaign:
         creator: dglover
         site: AzureAdvocates
 
-    - folder: 2023-04-04-exploring-cog-services
+    - folder: 2023-04-04-openai-playground
       emoji: 🧮
-      title: "Exploring Azure's Cognitive Services"
-      description: "Exploring Azure's Cognitive Services"
-      authors: [Dave]
+      title: "Explore Conversational AI with Azure OpenAI Playground"
+      description: "Exploring Conversational AI with Azure OpenAI Playground"
+      authors: [Valentina]
       keywords: []
-      tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]
+      tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
       canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
       twitter:
         creator: dglover
         site: AzureAdvocates
 
-    - folder: 2023-04-05-openai-playground
+    - folder: 2023-04-05-exploring-cog-services
       emoji: 🧮
-      title: "Exploring Conversational AI with Azure OpenAI Playground"
-      description: "Exploring Conversational AI with Azure OpenAI Playground"
-      authors: [Valentina]
+      title: "Introduction to Azure's Cognitive Services"
+      description: "Exploring Azure's Cognitive Services"
+      authors: [Dave]
       keywords: []
-      tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
+      tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]
       canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
       twitter:
         creator: dglover
@@ -324,7 +324,7 @@ campaign:
       description: "Maximizing Business Results with Azure Personalizer: A Machine Learning-Based Service for Personalized Customer Experiences"
       authors: [Arafat]
       keywords: []
-      tags: [ai-april,30-days-of-azure-ai,azure-ml,ml-engineers,app-developers,workshop]
+      tags: [ai-april,30-days-of-azure-ai,app-developers,workshop,azure-cognitive-services]
       canonical: 
       twitter:
         creator: dglover
