@@ -1,0 +1,132 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome8",
+    "definitions": {
+        "Welcome8": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "campaign": {
+                    "$ref": "#/definitions/Campaign"
+                }
+            },
+            "required": [
+                "campaign"
+            ],
+            "title": "Welcome8"
+        },
+        "Campaign": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "slug": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "blog_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "days": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Day"
+                    }
+                }
+            },
+            "required": [
+                "blog_url",
+                "days",
+                "name",
+                "slug"
+            ],
+            "title": "Campaign"
+        },
+        "Day": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "folder": {
+                    "type": "string"
+                },
+                "emoji": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "authors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "keywords": {
+                    "type": "array",
+                    "items": {}
+                },
+                "tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "canonical": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string",
+                            "format": "uri",
+                            "qt-uri-protocols": [
+                                "https"
+                            ]
+                        }
+                    ]
+                },
+                "twitter": {
+                    "$ref": "#/definitions/Twitter"
+                }
+            },
+            "required": [
+                "authors",
+                "canonical",
+                "description",
+                "emoji",
+                "folder",
+                "keywords",
+                "tags",
+                "title",
+                "twitter"
+            ],
+            "title": "Day"
+        },
+        "Twitter": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "creator": {
+                    "type": "string"
+                },
+                "site": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "creator",
+                "site"
+            ],
+            "title": "Twitter"
+        }
+    }
+}

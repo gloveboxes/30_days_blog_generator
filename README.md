@@ -7,9 +7,10 @@ The #30DaysOf Python app will scaffold out the blog structure for a #30Days blog
 
 ## Installation
 
-Tested on 
-1. macOS (Venture), 
-1. Windows 11 on Intel and Windows 11 on ARM, 
+Tested on:
+
+1. macOS (Venture)
+1. Windows 11 on Intel and Windows 11 on ARM
 1. Ubuntu 20.04/22.04 on Intel and ARM.
 
 ```bash
@@ -17,6 +18,8 @@ pip3 install -r requirements.txt
 ```
 
 ## Content Configuration
+
+Use VS Code with the [RedHat YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) extension installed to validate the blog.yaml file against the blog.json schema.
 
 A blog.yaml file is used to configure the structure and the metadata of the blog posts. You'll find the blog.yaml file in the root of the project.
 

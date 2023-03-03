@@ -1,6 +1,6 @@
 ---
 slug: {{slug}}-day{{day}}
-title: "{{ day }}. {{ title }}"
+title: "{{ day }}. {{ emoji }}{{ title }}"
 authors: {{ authors }}
 draft: true
 hide_table_of_contents: false
