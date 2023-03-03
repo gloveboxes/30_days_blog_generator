@@ -27,6 +27,9 @@ description: "{{ description }}"
 
 </head>
 
+- 📧 [Subscribe to the Azure AI Developer Newsletter](https://microsoft.github.io/Low-Code/subscribe)
+- 📌 [Ask a question about this post on GitHub Discussions](https://github.com/AzureAiDevs/Discussions/discussions/categories/{{ day }}-{{ title|lower|replace(":", "")|replace(" ", "-") }})
+
 <!-- 
 
 PLEASE READ THIS BEFORE EDITING THIS FILE
