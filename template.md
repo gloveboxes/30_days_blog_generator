@@ -18,7 +18,7 @@ description: "{{ description }}"
   <meta name="twitter:url" content="{{ blog_url }}/{{ slug }}-day{{ day }}" />
   <meta name="twitter:title" content="{{ title }}" />
   <meta name="twitter:description" content="{{ description }}" />
-  <meta name="twitter:image" content="{{ blog_url }}/{{ slug }}-day{{ day }}/twitter.png" />
+  <meta name="twitter:image" content="{{ blog_url }}/{{ slug }}-day{{ day }}/banner.png" />
   <meta name="twitter:card" content="summary_large_image" />
   {% if twitter['creator'] %}<meta name="twitter:creator" content="{{ twitter['creator'] }}" />{% endif %}
   {% if twitter['site'] %}<meta name="twitter:site" content="@{{ twitter['site'] }}" /> {% endif %}
@@ -53,7 +53,7 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 - Covered 3
  -->
 
-<!-- ![Empty Banner Placeholder](banner.png) -->
+![Empty Banner Placeholder](banner.png)
 
 ## Introduction
 

@@ -11,7 +11,7 @@
             "program": "generator.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["-o", "test", "-f", "2023-04-03-openia-sdk"]
+            "args": []
         }
     ]
 }

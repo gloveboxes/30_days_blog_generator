@@ -9,6 +9,7 @@ import pathlib
 import jinja2   # https://pypi.org/project/Jinja2/
 import oyaml as yaml
 import argparse
+import banner
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-o", "--output")
@@ -17,6 +18,20 @@ parser.add_argument("-f", "--folder")
 
 TEMPLATE_FILE = "template.md"
 DAYS_FILE = "blog.yaml"
+
+banner = banner.BANNER("authors.yml", "https://aka-ms/ai-april")
+
+# banner_definition = {
+#     "folder": "assets/test",
+#     "audience": "All AI Developers",
+#     "title": "Introduction to Azure ML",
+#     "day": "1",
+#     "keywords": [ 'test', 'Azure-OpenAI-Services', 'Azure-Applied-AI-Services', 'Cognitive-Services', 'Custom-Vision', 'Azure-Applied-AI-Services' ],
+#     "authors": [ 'Dave', 'Bea' ]
+# }
+
+# banner.create_banner(banner_definition)
+
 
 
 def validate_data(data):
@@ -110,12 +125,24 @@ def main(output_folder, blog_item):
 
         output_text = template.render(item)
 
-        pathlib.Path(os.path.join(output_folder, item['folder'])).mkdir(
-            parents=True, exist_ok=True)
-        filename = os.path.join(output_folder, item['folder'], 'index.md')
+        folder_name = os.path.join(output_folder, item['folder'])
+
+        pathlib.Path(folder_name).mkdir(parents=True, exist_ok=True)
+        filename = os.path.join(folder_name, 'index.md')
 
         with open(filename, 'w', encoding='utf8') as f:
             f.write(output_text)
+
+        banner_definition = {
+            "folder": folder_name,
+            "audience": item["audience"],
+            "title": item["title"],
+            "day": day,
+            "keywords": item['keywords'],
+            "authors": item['authors']
+        }
+
+        banner.create_banner(banner_definition)
 
     print("Done")
 

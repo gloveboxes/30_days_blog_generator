@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome1",
+    "definitions": {
+        "Welcome1": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Dave": {
+                    "$ref": "#/definitions/Dave"
+                }
+            },
+            "required": [
+                "Dave"
+            ],
+            "title": "Welcome1"
+        },
+        "Dave": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "image_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".png"
+                    ]
+                },
+                "tag": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "image_url",
+                "name",
+                "tag",
+                "title",
+                "url"
+            ],
+            "title": "Dave"
+        }
+    }
+}

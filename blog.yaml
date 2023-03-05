@@ -3,15 +3,16 @@
 campaign:
   name: 30DaysOfAzureAI
   slug: "2023"
-  blog_url: https://microsoft.github.io/Low-Code/blog
+  blog_url: "https://aka.ms/ai-april"
 
   days:
     - folder: 2023-03-29-kickoff
       emoji: 🧮
+      audience: "AI Developers"
       title: "Kick Starting AI April!"
       description: "Welcome to #AiApril! Join us for #30DaysOfAzureAI learning, skilling and discussions at [AI April](https://aka.ms/ai-april)"
       authors: [Dave]
-      keywords: []
+      keywords: [Azure-AI, Azure-OpenAI-Services, Cognitive-Services, Machine-Learning, Cognitive-Search, dotnet, onnx, CoPilot]
       tags: [azure-ai,azure-ml,azure-open-ai,azure-cognitive-services,responsible-ai,azure-ai-fundamentals,30-days-of-azure-ai]
       canonical:
       twitter:
@@ -20,10 +21,11 @@ campaign:
 
     - folder: 2023-04-03-azure-openai-services
       emoji: 🧮
+      audience: "AI Developers"
       title: "Introduction to Azure OpenAI"
       description: "Let's dive into the Azure OpenAI Service"
       authors: [Dave]
-      keywords: []
+      keywords: [Machine-Learning, Azure-OpenAI-Services, Azure-AI]
       tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
       canonical: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview
       twitter:
@@ -32,10 +34,11 @@ campaign:
 
     - folder: 2023-04-04-openai-playground
       emoji: 🧮
-      title: "Explore Conversational AI with Azure OpenAI Playground"
+      audience: "AI Developers"
+      title: "Conversational AI with Azure OpenAI Playground"
       description: "Exploring Conversational AI with Azure OpenAI Playground"
       authors: [Valentina]
-      keywords: []
+      keywords: [Azure-AI, Azure-OpenAI-Services]
       tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
       canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
       twitter:
@@ -44,10 +47,11 @@ campaign:
 
     - folder: 2023-04-05-exploring-cog-services
       emoji: 🧮
+      audience: "AI Developers"
       title: "Introduction to Azure's Cognitive Services"
       description: "Exploring Azure's Cognitive Services"
       authors: [Dave]
-      keywords: []
+      keywords: [Cognitive-Services, Azure-AI]
       tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]
       canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
       twitter:
@@ -56,10 +60,11 @@ campaign:
 
     - folder: 2023-04-06-azure-ml-intro
       emoji: 🧮
+      audience: "AI Developers"
       title: "Azure ML: An Overview of Key Concepts"
       description: "Getting Started with Azure ML: An Overview of Key Concepts"
       authors: [Bea]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [azure-ai, azure-ml, 30-days-of-azure-ai]
       canonical: https://bea.stollnitz.com/blog/aml-introduction/
       twitter:
@@ -68,10 +73,11 @@ campaign:
 
     - folder: 2023-04-07-rai-part-1
       emoji: 🧮
+      audience: "AI Developers"
       title: "Guide to Responsible AI"
       description: "Responsible AI: A Guide to the RAI Dashboard and Azure ML"
       authors: [Ruth]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [azure-ai,responsible-ai,30-days-of-azure-ai,ml-developers,app-developers]
       canonical: https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/getting-started-with-azure-machine-learning-responsible-ai/ba-p/3746948
       twitter:
@@ -80,10 +86,11 @@ campaign:
 
     - folder: 2023-04-08-ai-accessibility
       emoji: 🧮
+      audience: "AI Developers"
       title: "AI for Accessibility"
       description: "Learn about AI for Accessibility"
       authors: [Henk]
-      keywords: []
+      keywords: [Accessibility-Employment, Accessibility-Modern-Life, Accessibility-Human-Connection]
       tags: [ai-april,30-days-of-azure-ai,ml-developers,app-developers,ai-for-accessibility]
       canonical: https://www.microsoft.com/ai/ai-for-accessibility
       twitter:
@@ -92,10 +99,11 @@ campaign:
 
     - folder: 2023-04-09-recap-fundamentals
       emoji: 🧮
+      audience: "AI Developers"
       title: "Recap - Fundamentals Week✨"
       description: "30DaysOfAzureAI Recap - Fundamentals"
       authors: [Dave]
-      keywords: []
+      keywords: [Azure-OpenAI-Services, Azure-AI]
       tags: [azure-ai,azure-ml,azure-open-ai,azure-cognitive-services,responsible-ai,azure-ai-fundamentals,30-days-of-azure-ai,]
       canonical:
       twitter:
@@ -104,10 +112,11 @@ campaign:
 
     - folder: 2023-04-10-azure-cog-openai-sdks
       emoji: 🧑‍💻
+      audience: "App Developers"
       title: "AI-Powered Apps and Azure AI SDKs"
       description: "Exploring AI-Powered Apps and Azure AI SDKs"
       authors: [Arun]
-      keywords: []
+      keywords: [Cognitive-Services, Azure-OpenAI-Services, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
       canonical:
       twitter:
@@ -116,10 +125,11 @@ campaign:
 
     - folder: 2023-04-11-inside-openai
       emoji: 🧑‍💻
-      title: "Power Apps with Azure OpenAI and Cognitive Search"
+      audience: "App Developers"
+      title: "Azure OpenAI with Cognitive Search"
       description: "Azure OpenAI and Cognitive Search: Boosting App Power"
       authors: [Heidi]
-      keywords: []
+      keywords: [Cognitive-Search, Azure-OpenAI-Services, Azure-AI]
       tags: [ai-april, azure-open-ai, azure-cognitive-services, app-developers]
       canonical:
       twitter:
@@ -128,10 +138,11 @@ campaign:
 
     - folder: 2023-04-12-onnx-dotnet
       emoji: 🧑‍💻
+      audience: "App Developers"
       title: "Cross-Platform AI with ONNX and .NET"
       description: "Building Cross-Platform AI Solutions with ONNX and .NET"
       authors: [Henk]
-      keywords: []
+      keywords: [dotnet, onnx, vscode, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
       canonical:
       twitter:
@@ -140,10 +151,11 @@ campaign:
 
     - folder: 2023-04-13-inside-onnx-excel
       emoji: 🧑‍💻
+      audience: "App Developers"
       title: "BERT NLP in JavaScript with ONNX and Excel"
       description: "ONNX Runtime Custom Excel Functions for BERT NLP Tasks in JavaScript"
       authors: [Cassie]
-      keywords: []
+      keywords: [onnx, JavaScript, Excel]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
       canonical: https://onnxruntime.ai/docs/tutorials/web/excel-addin-bert-js.html
       twitter:
@@ -152,10 +164,11 @@ campaign:
 
     - folder: 2023-04-14-copilot
       emoji: 🧑‍💻
+      audience: "App Developers"
       title: "Copilot's new AI model and capabilities"
       description: "GitHub CoPilot Upgraded: Faster, More Accurate, and More Secure Code"
       authors: [Shuyin]
-      keywords: []
+      keywords: ['vscode', 'CoPilot']
       tags: [ai-april, 30-days-of-azure-ai, app-developers, copilot]
       canonical: https://github.blog/2023-02-14-github-copilot-now-has-a-better-ai-model-and-new-capabilities/
       twitter:
@@ -164,10 +177,11 @@ campaign:
 
     - folder: 2023-04-15-openai-blazer
       emoji: 🧑‍💻
-      title: "Power Blazer Apps with Azure OpenAI"
+      audience: "App Developers"
+      title: "Power Blazor Apps with Azure OpenAI"
       description: "Building Interactive Web Applications with Microsoft Blazor and Azure OpenAI"
       authors: [Michael]
-      keywords: []
+      keywords: ['Azure-OpenAI-Services', 'Blazor', 'vscode', Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers, copilot, open-ai]
       canonical: https://blazorhelpwebsite.com/ViewBlogPost/2065
       twitter:
@@ -176,10 +190,11 @@ campaign:
 
     - folder: 2023-04-16-recap-week-two
       emoji: 🧑‍💻
-      title: "Recap - AI App Developers✨"
-      description: "30DaysOfAzureAI Recap for AI App Developers Week"
+      audience: "App Developers"
+      title: "Recap - App Developers✨"
+      description: "30DaysOfAzureAI Recap for App Developers Week"
       authors: [Dave]
-      keywords: []
+      keywords: [Azure-OpenAI-Services]
       tags: [ai-april, 30-days-of-azure-ai,app-developers,azure-open-ai,azure-cognitive-services]
       canonical:
       twitter:
@@ -188,10 +203,11 @@ campaign:
 
     - folder: 2023-04-17-inside-azureml-train-deploy
       emoji: 🧑🏽‍🔬
+      audience: "ML Developers"
       title: "Scaling Model Dev with Azure ML"
       description: "Azure ML: Train and Deploy ML Models at Scale"
       authors: [Bea]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-ml, data-scientist]
       canonical: https://bea.stollnitz.com/blog/aml-command
       twitter:
@@ -200,10 +216,11 @@ campaign:
 
     - folder: 2023-04-18-azureml-pipelines
       emoji: 🧑🏽‍🔬
+      audience: "ML Developers"
       title: "Streamline Model Dev with Azure ML"
       description: "Streamlining ML Development with Azure ML Components & Pipelines"
       authors: [Bea]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-ml, data-scientist]
       canonical: https://bea.stollnitz.com/blog/aml-pipeline/
       twitter:
@@ -212,10 +229,11 @@ campaign:
 
     - folder: 2023-04-19-azureml-endpoints
       emoji: 🧑🏽‍🔬
+      audience: "ML Developers"
       title: "Azure ML Managed Online Endpoints"
       description: "Azure ML Managed Online Endpoints - A Quickstart"
       authors: [Vlad]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-ml, data-scientist]
       canonical: https://vladiliescu.net/aml-managed-endpoints-quickstart/
       twitter:
@@ -224,10 +242,11 @@ campaign:
 
     - folder: 2023-04-20-rai-part-2
       emoji: 🧑🏽‍🔬
+      audience: "ML Developers"
       title: "Building Responsible AI in Every Model"
       description: "Building Responsible AI into Every Model"
       authors: [Ruth]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [ai-april,30-days-of-azure-ai,responsible-ai,ml-developers,app-developers,data-scientist]
       canonical:
       twitter:
@@ -236,10 +255,11 @@ campaign:
 
     - folder: 2023-04-21-mlops-intro
       emoji: 🧑🏽‍🔬
+      audience: "ML Developers"
       title: "Learn MLOps for the ML Lifecycle"
       description: "Learn Live: Start the machine learning lifecycle with MLOps"
       authors: [Cassie]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers]
       canonical: https://learn.microsoft.com/en-us/events/ignite-2022/cll99-learn-live-start-machine-learning-lifecycle-with-mlops
       twitter:
@@ -248,10 +268,11 @@ campaign:
 
     - folder: 2023-04-23-recap-week-three
       emoji: 🧑🏽‍🔬
+      audience: "ML Developers"
       title: "Recap - Machine Learning Week✨"
       description: "30DaysOfAzureAI Recap for Machine Learning Week"
       authors: [Dave]
-      keywords: []
+      keywords: [Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-mlops]
       canonical:
       twitter:
@@ -260,10 +281,11 @@ campaign:
 
     - folder: 2023-04-24-mlops-accelerator
       emoji: 🏭
+      audience: "AI Workshops"
       title: "MLOps Solution Accelerator Explained"
       description: "Accelerating MLOps with the v2 Solution Accelerator"
       authors: [Setu]
-      keywords: []
+      keywords: [Machine-Learning]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-mlops]
       canonical: https://github.com/Azure/mlops-v2
       twitter:
@@ -272,6 +294,7 @@ campaign:
 
     - folder: 2023-04-25-data-science-beginners
       emoji: 🏭
+      audience: "AI Workshops"
       title: "Data Science for beginners"
       description: "Foundations of Data Science: Workshops for Beginners"
       authors: [Gabriela]
@@ -284,6 +307,7 @@ campaign:
 
     - folder: 2023-04-26-ml-ai-workshops
       emoji: 🏭
+      audience: "AI Workshops"
       title: "ML and AI for beginners"
       description: "learn about the ML and AI for beginner workshops"
       authors: [Gabriela]
@@ -296,10 +320,11 @@ campaign:
 
     - folder: 2023-04-27-patient-rego-workshop
       emoji: 🏭
+      audience: "AI Workshops"
       title: "Build a Patient Registration App"
       description: "Building a Patient Registration Web App with Azure Form Recognizer"
       authors: [Dave]
-      keywords: []
+      keywords: [Form-Recognizers, Azure-Applied-AI-Services, Azure-AI]
       tags: [ai-april,30-days-of-azure-ai,azure-cognitive-services,app-developers,workshop]
       canonical: https://newpatiente2e.github.io/docs/
       twitter:
@@ -308,10 +333,11 @@ campaign:
 
     - folder: 2023-04-28-stable-diffusion
       emoji: 🏭
+      audience: "AI Workshops"
       title: "Stable Diffusion on Azure ML"
       description: "How to run Stable Diffusion Web UI on Azure ML compute instances"
       authors: [Vlad]
-      keywords: []
+      keywords: [Machine-Learning, Azure-AI]
       tags: [ai-april,30-days-of-azure-ai,azure-ml,ml-engineers,app-developers,workshop]
       canonical: https://vladiliescu.net/stable-diffusion-web-ui-on-azure-ml/
       twitter:
@@ -320,10 +346,11 @@ campaign:
 
     - folder: 2023-04-29-azure-personalizer
       emoji: 🏭
-      title: "Optimize Customer Engagement with Azure Personalizer"
+      audience: "AI Workshops"
+      title: "Customer Engagement with Azure Personalizer"
       description: "Maximizing Business Results with Azure Personalizer: A Machine Learning-Based Service for Personalized Customer Experiences"
       authors: [Arafat]
-      keywords: []
+      keywords: [Personalizers, Azure-AI]
       tags: [ai-april,30-days-of-azure-ai,app-developers,workshop,azure-cognitive-services]
       canonical: 
       twitter:
@@ -332,10 +359,11 @@ campaign:
 
     - folder: 2023-04-30-recap-final
       emoji: 🏭
+      audience: "AI Workshops"
       title: "Continuing the Azure AI Journey✨"
       description: "Continuing the Azure AI Journey"
       authors: [Dave]
-      keywords: []
+      keywords: [Personalizers, Azure-Applied-AI-Services, Azure-OpenAI-Services]
       tags: [ai-april,30-days-of-azure-ai,ml-developers,app-developers,azure-ml,azure-open-ai,azure-cognitive-services,responsible-ai,azure-ai-fundamentals]
       canonical:
       twitter:
