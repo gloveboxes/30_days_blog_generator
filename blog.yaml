@@ -259,7 +259,7 @@ campaign:
       title: "Learn MLOps for the ML Lifecycle"
       description: "Learn Live: Start the machine learning lifecycle with MLOps"
       authors: [Cassie]
-      keywords: [Machine-Learning, Azure-AI]
+      keywords: [MLOps, Machine-Learning, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers]
       canonical: https://learn.microsoft.com/en-us/events/ignite-2022/cll99-learn-live-start-machine-learning-lifecycle-with-mlops
       twitter:
@@ -272,7 +272,7 @@ campaign:
       title: "Recap - Machine Learning Week✨"
       description: "30DaysOfAzureAI Recap for Machine Learning Week"
       authors: [Dave]
-      keywords: [Azure-AI]
+      keywords: [Azure-AI, MLOps]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-mlops]
       canonical:
       twitter:
@@ -285,7 +285,7 @@ campaign:
       title: "MLOps Solution Accelerator Explained"
       description: "Accelerating MLOps with the v2 Solution Accelerator"
       authors: [Setu]
-      keywords: [Machine-Learning]
+      keywords: [MLOps, Machine-Learning, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-mlops]
       canonical: https://github.com/Azure/mlops-v2
       twitter:

@@ -43,7 +43,7 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
  -->
 
-## Welcome to _Day {{ day }}_ of {{ campaign }}!
+## Welcome to Day _{{ day }}_ of {{ campaign }}!
 
 ## What We'll Cover
 
