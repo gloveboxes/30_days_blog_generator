@@ -1,0 +1,3 @@
+- Automate the manual form filling process using Azure Form Recognizer
+- Improve the patient experience by integrating a web-based patient registration system
+- Achieve a more efficient and accurate system for data extraction with a custom Azure Form Recognizer model. 

@@ -1,0 +1,1 @@
+Unleash the full potential of your machine learning models with Azure Machine Learning's managed online endpoints. Enjoy the benefits of built-in security, native blue/green deployments, and auto-scaling with Azure Monitor. Achieve seamless deployment with step-by-step instructions using Azure CLI and Azure ML CLI v2 tools. Get started now!

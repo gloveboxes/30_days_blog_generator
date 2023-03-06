@@ -1,0 +1,3 @@
+- Azure OpenAI Playground: a user-friendly interface for machine learning models.
+- Features: custom data sets, experiment management, and model visualization.
+- Scalable, flexible, and available at different price points.

@@ -1,0 +1,3 @@
+- The article covers Microsoft Blazor and Azure OpenAI consumption, including text-davinci-002 model.
+- A guide is provided for setting up the Azure OpenAI service.
+- The article includes code for a Blazor app wrapping the OpenAIClient class and creating a UI. It serves as a comprehensive tutorial for integrating Azure OpenAI into Blazor apps.

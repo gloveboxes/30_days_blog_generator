@@ -1,0 +1,3 @@
+- This post provides an overview of the main concepts in Azure ML to help the reader become effective at using the platform. 
+- Understanding these concepts will make following code samples easier and provide a good foundation for writing your own code. 
+- The goal is to make the reader proficient in using Azure ML.

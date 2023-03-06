@@ -47,11 +47,12 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
 **{{ description }}**
 
-{% include 'content/' + folder + '/intro.txt' ignore missing %}
+{% include 'content/' + folder + '/intro.md' ignore missing %}
 
 ## What We'll Cover
 
-{% include 'content/' + folder + '/cover.md' ignore missing %}
+{% set template = "## What We'll Cover" %}
+{% include 'content/' + folder + '/covered.md' ignore missing %}
 
 <!--
 - Covered 1
@@ -66,6 +67,8 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
 <!-- Content for the day goes here. -->
 
+## Learn More
+
 {% if canonical -%}
-To learn more, head over to the [original post]({{ canonical }}).
+To learn more, check out this [article]({{ canonical }}).
 {% endif %}

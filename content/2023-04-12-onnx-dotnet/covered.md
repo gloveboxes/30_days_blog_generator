@@ -1,0 +1,3 @@
+1. The presentation is about machine learning models with ONNX and .NET, presented by Beatriz Stollnitz and Henk.
+2. They start with a dataset of Lego figures, create a model, and demonstrate how to run it in a .NET Maui application that can run on a mobile phone.
+3. The presentation covers an overview of AI, machine learning, expert systems, and deep learning, and how they relate to traditional programming.

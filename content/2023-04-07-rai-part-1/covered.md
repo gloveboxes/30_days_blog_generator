@@ -1,0 +1,3 @@
+- The RAI Dashboard is a suite of open-source tools for responsible AI development, including features like model interpretability, error analysis, and counterfactual analysis.
+- The RAI Dashboard is accessible via the Azure Machine Learning platform.
+- RAI components help ML engineers and decision-makers improve AI responsibility.

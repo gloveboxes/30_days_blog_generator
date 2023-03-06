@@ -1,8 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-06/schema#",
-    "$ref": "#/definitions/Welcome2",
+    "$ref": "#/definitions/Welcome9",
     "definitions": {
-        "Welcome2": {
+        "Welcome9": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
@@ -13,7 +13,7 @@
             "required": [
                 "campaign"
             ],
-            "title": "Welcome2"
+            "title": "Welcome9"
         },
         "Campaign": {
             "type": "object",
@@ -33,6 +33,9 @@
                         "https"
                     ]
                 },
+                "twitter": {
+                    "$ref": "#/definitions/Twitter"
+                },
                 "days": {
                     "type": "array",
                     "items": {
@@ -44,7 +47,8 @@
                 "blog_url",
                 "days",
                 "name",
-                "slug"
+                "slug",
+                "twitter"
             ],
             "title": "Campaign"
         },
@@ -75,7 +79,9 @@
                 },
                 "keywords": {
                     "type": "array",
-                    "items": {}
+                    "items": {
+                        "type": "string"
+                    }
                 },
                 "tags": {
                     "type": "array",

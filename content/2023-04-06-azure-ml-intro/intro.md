@@ -1,0 +1,5 @@
+## What We'll Cover
+
+If you’re used to training machine learning models on your local hardware, you may have experienced frustration as you hit the limits of what it can do. Maybe you’ve trained a model overnight or over several days for a school project, preventing you from using your laptop for other homework. Or maybe you’ve deployed a model in your company’s hardware, only to find out that your product went viral unexpectedly and your hardware couldn’t scale to meet demand. Or maybe as your team grows, you need a better way to manage the workflow of your machine learning project. These are a few common scenarios that are easily solved by moving your training and deployment to the cloud.
+
+There are currently three major offerings in the AI cloud space: AWS Sagemaker from Amazon, Google Cloud Vertex AI from Google, and Azure ML from Microsoft. This article is the first in a series that will cover Azure ML in detail.

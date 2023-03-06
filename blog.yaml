@@ -4,10 +4,14 @@ campaign:
   name: 30DaysOfAzureAI
   slug: "2023"
   blog_url: "https://aka.ms/ai-april"
+  twitter:
+    creator: dglover
+    site: AzureAdvocates
+  
 
   days:
     - folder: 2023-03-29-kickoff
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
       title: "Kick Starting AI April!"
       description: "Welcome to #AiApril! Join us for #30DaysOfAzureAI learning, skilling and discussions at [AI April](https://aka.ms/ai-april)"
@@ -20,20 +24,20 @@ campaign:
         site: AzureAdvocates
 
     - folder: 2023-04-03-azure-openai-services
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
-      title: "Introduction to Azure OpenAI"
-      description: "Let's dive into the Azure OpenAI Service"
+      title: "Unleash the power of Azure OpenAI"
+      description: "Unleashing the power of AI with Azure OpenAI: A simple guide to get started"
       authors: [Dave]
       keywords: [Azure-OpenAI-Services, Machine-Learning, Azure-AI]
       tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
-      canonical: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview
+      canonical: https://techcommunity.microsoft.com/t5/fasttrack-for-azure/unleashing-the-power-of-ai-with-azure-openai-a-simple-guide-to/ba-p/3725706
       twitter:
         creator: dglover
         site: AzureAdvocates
 
     - folder: 2023-04-04-openai-playground
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
       title: "Explore the Azure OpenAI Playground"
       description: "Explore Conversational AI with the Azure OpenAI Service Playground"
@@ -46,20 +50,20 @@ campaign:
         site: AzureAdvocates
 
     - folder: 2023-04-05-exploring-cog-services
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
-      title: "AI-Power Apps with Cognitive Services"
-      description: "Build AI-Powered apps with Azure Cognitive Services with ease"
+      title: "Use CoPilot to build a AI Reciept App"
+      description: "Learn how to use CoPilot to build an AI-Powered Recipt Recognition App powered by Azure Form Recognizer"
       authors: [Dave]
-      keywords: [Cognitive-Services, Azure-AI, vscode]
-      tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]
-      canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
+      keywords: [Azure-AI, Form-Recognizers, Azure-Applied-AI-Services, CoPilot]
+      tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]      
+      canonical: https://techcommunity.microsoft.com/t5/ai-cognitive-services-blog/how-copilot-helps-developers-generate-code-for-a-form-recognizer/ba-p/3753813
       twitter:
         creator: dglover
         site: AzureAdvocates
 
     - folder: 2023-04-06-azure-ml-intro
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
       title: "Learn key Azure ML Concepts"
       description: "Learn key Azure ML Concepts with this primer"
@@ -72,7 +76,7 @@ campaign:
         site: AzureAdvocates
 
     - folder: 2023-04-07-rai-part-1
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
       title: "Guide to Responsible AI (Part 1)"
       description: "Get started with Azure Machine Learning Responsible AI components (Part 1)"
@@ -85,9 +89,9 @@ campaign:
         site: AzureAdvocates
 
     - folder: 2023-04-08-ai-accessibility
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
-      title: "AI for Accessibility"
+      title: "Accessible AI Apps for Everyone"
       description: "Learn to build AI for everyone with AI for Accessibility"
       authors: [Henk]
       keywords: [Accessibility-Employment, Accessibility-Modern-Life, Accessibility-Human-Connection]
@@ -98,7 +102,7 @@ campaign:
         site: AzureAdvocates
 
     - folder: 2023-04-09-recap-fundamentals
-      emoji: 🧮
+      emoji: 🏁
       audience: "Azure AI Developers"
       title: "Recap: Fundamentals Week✨"
       description: "30DaysOfAzureAI Recap - Fundamentals"
@@ -144,7 +148,7 @@ campaign:
       authors: [Henk]
       keywords: [dotnet, onnx, vscode, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
-      canonical:
+      canonical: 
       twitter:
         creator: dglover
         site: AzureAdvocates
@@ -257,7 +261,7 @@ campaign:
       emoji: 🧑🏽‍🔬
       audience: "Azure ML Developers"
       title: "Learn MLOps for the ML Lifecycle"
-      description: "Learn Live: Start the machine learning lifecycle with MLOps"
+      description: "Learn about Azure Machine Learning lifecycle with MLOps"
       authors: [Cassie]
       keywords: [MLOps, Machine-Learning, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers]

@@ -1,0 +1,7 @@
+This article discusses the benefits of Azure ML components and pipelines in machine learning. It explains how to break down training code into components and connect those components into a pipeline. The author provides two GitHub repositories to illustrate how to work with pipelines and components using the CLI and the Python SDK. The article also emphasizes the importance of organizing work into two steps, i.e., a training step and a test step.
+
+The author also discusses creating Azure ML components as reusable pieces of code with inputs and outputs, which can be defined in their Python file. Inputs and outputs are specified as command-line arguments. The author further highlights that components can help maintain separation in the cloud by organizing training code into two steps with distinct logic. Lastly, the article provides an example of a train component specification that shows the names of the input and output in the component YAML specification match the names of the arguments in the code.
+
+The article emphasizes the importance of testing the code frequently to ensure it executes and provides accurate results. It also recommends using the MLflow API because of the great logging support it provides.
+
+![](image.png)

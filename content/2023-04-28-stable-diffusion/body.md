@@ -1,0 +1,5 @@
+The article describes how the author was fascinated by Stable Diffusion's ability to generate images and was determined to run it on Azure Machine Learning, as he was unable to use it on his MacBook. The author lists the prerequisites required to create Azure resources and provides the code snippets to create a resource group, Azure ML workspace, and a GPU compute instance. The article also guides readers on how to request access to GPU compute instances and how to avoid getting denied access due to the unavailability of GPU instances. The author recommends using a Standard_NC6s_v3 compute type with a Tesla V100 to run Stable Diffusion efficiently.
+
+In summary, the article provides a comprehensive guide on how to create the required Azure resources to run Stable Diffusion on Azure Machine Learning. The author's experience with Stable Diffusion on different GPU types and the associated costs are also discussed, providing readers with a clear understanding of the resources required and their costs.
+
+![](image.jpeg)
