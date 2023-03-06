@@ -40,7 +40,7 @@ The add-in module, named "conjure", collects a text input that's passed
 to Codex, transforming user intent into actionable code that Minecraft
 understands.
 
-<iframe width="100%" height="420" src="https://youtu.be/3t3qZu1Dy1k?t=341" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/3t3qZu1Dy1k?start=341" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 If your application supports plug-in or add-on modules, you can attach a
@@ -64,7 +64,7 @@ volumes of unstructured content from various sources.
 -   GPT-3 takes the documents and composes better answers and insights
     using content from all of them.
 
-<iframe width="100%" height="420" src="https://youtu.be/3t3qZu1Dy1k?t=576" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/3t3qZu1Dy1k?start=576" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 In this example, the app calls Azure Cognitive Search to discover
