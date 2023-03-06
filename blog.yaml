@@ -25,7 +25,7 @@ campaign:
       title: "Introduction to Azure OpenAI"
       description: "Let's dive into the Azure OpenAI Service"
       authors: [Dave]
-      keywords: [Machine-Learning, Azure-OpenAI-Services, Azure-AI]
+      keywords: [Azure-OpenAI-Services, Machine-Learning, Azure-AI]
       tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
       canonical: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview
       twitter:
@@ -165,10 +165,10 @@ campaign:
     - folder: 2023-04-14-copilot
       emoji: 🧑‍💻
       audience: "App Developers"
-      title: "Copilot's new AI model and capabilities"
+      title: "Copilot's updated AI model and capabilities"
       description: "GitHub CoPilot Upgraded: Faster, More Accurate, and More Secure Code"
       authors: [Shuyin]
-      keywords: ['vscode', 'CoPilot']
+      keywords: ['vscode', 'CoPilot', Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers, copilot]
       canonical: https://github.blog/2023-02-14-github-copilot-now-has-a-better-ai-model-and-new-capabilities/
       twitter:
