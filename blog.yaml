@@ -38,7 +38,7 @@ campaign:
       title: "Conversational AI with Azure OpenAI Playground"
       description: "Exploring Conversational AI with Azure OpenAI Playground"
       authors: [Valentina]
-      keywords: [Azure-AI, Azure-OpenAI-Services]
+      keywords: [Azure-OpenAI-Services, Azure-AI]
       tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
       canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
       twitter:
@@ -51,7 +51,7 @@ campaign:
       title: "Introduction to Azure's Cognitive Services"
       description: "Exploring Azure's Cognitive Services"
       authors: [Dave]
-      keywords: [Cognitive-Services, Azure-AI]
+      keywords: [Cognitive-Services, Azure-AI, vscode]
       tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]
       canonical: https://medium.com/microsoftazure/azure-openai-playground-279f1f3da562
       twitter:
@@ -116,7 +116,7 @@ campaign:
       title: "AI-Powered Apps and Azure AI SDKs"
       description: "Exploring AI-Powered Apps and Azure AI SDKs"
       authors: [Arun]
-      keywords: [Cognitive-Services, Azure-OpenAI-Services, Azure-AI]
+      keywords: [Azure-OpenAI-Services, Cognitive-Services, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
       canonical:
       twitter:
@@ -129,7 +129,7 @@ campaign:
       title: "Azure OpenAI with Cognitive Search"
       description: "Azure OpenAI and Cognitive Search: Boosting App Power"
       authors: [Heidi]
-      keywords: [Cognitive-Search, Azure-OpenAI-Services, Azure-AI]
+      keywords: [Azure-OpenAI-Services, Cognitive-Search, Azure-AI]
       tags: [ai-april, azure-open-ai, azure-cognitive-services, app-developers]
       canonical:
       twitter:
@@ -155,7 +155,7 @@ campaign:
       title: "BERT NLP in JavaScript with ONNX and Excel"
       description: "ONNX Runtime Custom Excel Functions for BERT NLP Tasks in JavaScript"
       authors: [Cassie]
-      keywords: [onnx, JavaScript, Excel]
+      keywords: [onnx, JavaScript, Excel, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
       canonical: https://onnxruntime.ai/docs/tutorials/web/excel-addin-bert-js.html
       twitter:
@@ -168,7 +168,7 @@ campaign:
       title: "Copilot's updated AI model and capabilities"
       description: "GitHub CoPilot Upgraded: Faster, More Accurate, and More Secure Code"
       authors: [Shuyin]
-      keywords: ['vscode', 'CoPilot', Azure-AI]
+      keywords: ['CoPilot','vscode',  Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers, copilot]
       canonical: https://github.blog/2023-02-14-github-copilot-now-has-a-better-ai-model-and-new-capabilities/
       twitter:
@@ -194,7 +194,7 @@ campaign:
       title: "Recap - App Developers✨"
       description: "30DaysOfAzureAI Recap for App Developers Week"
       authors: [Dave]
-      keywords: [Azure-OpenAI-Services]
+      keywords: [Azure-OpenAI-Services, Cognitive-Services, Azure-AI, Cognitive-Search, onnx, dotnet, Blazor, CoPilot]
       tags: [ai-april, 30-days-of-azure-ai,app-developers,azure-open-ai,azure-cognitive-services]
       canonical:
       twitter:
@@ -272,7 +272,7 @@ campaign:
       title: "Recap - Machine Learning Week✨"
       description: "30DaysOfAzureAI Recap for Machine Learning Week"
       authors: [Dave]
-      keywords: [Azure-AI, MLOps]
+      keywords: [Azure-AI, Machine-Learning, MLOps, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, azure-mlops]
       canonical:
       twitter:
