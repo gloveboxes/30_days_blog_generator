@@ -55,7 +55,7 @@ campaign:
       title: "Use CoPilot to build a AI Reciept App"
       description: "Learn how to use CoPilot to build an AI-Powered Recipt Recognition App powered by Azure Form Recognizer"
       authors: [Dave]
-      keywords: [Azure-AI, Form-Recognizers, Azure-Applied-AI-Services, CoPilot]
+      keywords: [Form-Recognizers, Azure-Applied-AI-Services, CoPilot, vscode, Azure-AI]
       tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]      
       canonical: https://techcommunity.microsoft.com/t5/ai-cognitive-services-blog/how-copilot-helps-developers-generate-code-for-a-form-recognizer/ba-p/3753813
       twitter:
