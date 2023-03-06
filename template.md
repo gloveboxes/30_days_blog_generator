@@ -45,6 +45,8 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
 ## Day _{{ day }}_ of #{{ campaign }}
 
+{{ description }}
+
 {% include 'content/' + folder + '/intro.txt' ignore missing %}
 
 ## What We'll Cover
@@ -59,7 +61,7 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
 ## Introduction
 
-{{ description }}
+{% include 'content/' + folder + '/body.txt' ignore missing %}
 
 <!-- Content for the day goes here. -->
 

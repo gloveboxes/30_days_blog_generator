@@ -35,7 +35,7 @@ campaign:
     - folder: 2023-04-04-openai-playground
       emoji: 🧮
       audience: "Azure AI Developers"
-      title: "Conversational AI with Azure OpenAI Playground"
+      title: "Explore the Azure OpenAI Playground"
       description: "Exploring Conversational AI with Azure OpenAI Playground"
       authors: [Valentina]
       keywords: [Azure-OpenAI-Services, Azure-AI]
@@ -48,7 +48,7 @@ campaign:
     - folder: 2023-04-05-exploring-cog-services
       emoji: 🧮
       audience: "Azure AI Developers"
-      title: "Introduction to Azure's Cognitive Services"
+      title: "Learn Azure Cognitive Services"
       description: "Exploring Azure's Cognitive Services"
       authors: [Dave]
       keywords: [Cognitive-Services, Azure-AI, vscode]
@@ -61,7 +61,7 @@ campaign:
     - folder: 2023-04-06-azure-ml-intro
       emoji: 🧮
       audience: "Azure AI Developers"
-      title: "Azure ML: An Overview of Key Concepts"
+      title: "Intro to Azure ML Key Concepts"
       description: "Getting Started with Azure ML: An Overview of Key Concepts"
       authors: [Bea]
       keywords: [Machine-Learning, Azure-AI]
@@ -74,7 +74,7 @@ campaign:
     - folder: 2023-04-07-rai-part-1
       emoji: 🧮
       audience: "Azure AI Developers"
-      title: "Guide to Responsible AI"
+      title: "Guide to Responsible AI (Part 1)"
       description: "Responsible AI: A Guide to the RAI Dashboard and Azure ML"
       authors: [Ruth]
       keywords: [Machine-Learning, Azure-AI, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
@@ -152,7 +152,7 @@ campaign:
     - folder: 2023-04-13-inside-onnx-excel
       emoji: 🧑‍💻
       audience: "Azure AI App Developers"
-      title: "BERT NLP in JavaScript with ONNX and Excel"
+      title: "Implement BERT NLP models in Excel"
       description: "ONNX Runtime Custom Excel Functions for BERT NLP Tasks in JavaScript"
       authors: [Cassie]
       keywords: [onnx, JavaScript, Excel, Azure-AI]
@@ -165,7 +165,7 @@ campaign:
     - folder: 2023-04-14-copilot
       emoji: 🧑‍💻
       audience: "Azure AI App Developers"
-      title: "Copilot's updated AI model and capabilities"
+      title: "Copilot's updated AI model"
       description: "GitHub CoPilot Upgraded: Faster, More Accurate, and More Secure Code"
       authors: [Shuyin]
       keywords: ['CoPilot','vscode',  Azure-AI]
@@ -178,8 +178,8 @@ campaign:
     - folder: 2023-04-15-openai-blazer
       emoji: 🧑‍💻
       audience: "Azure AI App Developers"
-      title: "Power Blazor Apps with Azure OpenAI"
-      description: "Building Interactive Web Applications with Microsoft Blazor and Azure OpenAI"
+      title: "Blazor Apps and Azure OpenAI"
+      description: "Build Interactive Web Applications with Microsoft Blazor and Azure OpenAI"
       authors: [Michael]
       keywords: ['Azure-OpenAI-Services', 'Blazor', 'vscode', Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers, copilot, open-ai]
@@ -243,7 +243,7 @@ campaign:
     - folder: 2023-04-20-rai-part-2
       emoji: 🧑🏽‍🔬
       audience: "Azure ML Developers"
-      title: "Building Responsible AI in Every Model"
+      title: "Guide to Responsible AI (Part 2)"
       description: "Building Responsible AI into Every Model"
       authors: [Ruth]
       keywords: [Machine-Learning, Azure-AI, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
@@ -282,7 +282,7 @@ campaign:
     - folder: 2023-04-24-mlops-accelerator
       emoji: 🏭
       audience: "Azure AI Workshop"
-      title: "MLOps Solution Accelerator Explained"
+      title: "MLOps Accelerator Explained"
       description: "Accelerating MLOps with the v2 Solution Accelerator"
       authors: [Setu]
       keywords: [MLOps, Machine-Learning, Azure-AI]
@@ -298,7 +298,7 @@ campaign:
       title: "Data Science for beginners"
       description: "Foundations of Data Science: Workshops for Beginners"
       authors: [Gabriela]
-      keywords: []
+      keywords: [Data_Science_Beginners]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, workshop]
       canonical: https://microsoft.github.io/Data-Science-For-Beginners
       twitter:
@@ -311,7 +311,7 @@ campaign:
       title: "ML and AI for beginners"
       description: "learn about the ML and AI for beginner workshops"
       authors: [Gabriela]
-      keywords: []
+      keywords: [AI_Beginners]
       tags: [ai-april, 30-days-of-azure-ai, ml-developers, workshop]
       canonical: https://github.com/microsoft/ML-For-Beginners
       twitter:
@@ -337,7 +337,7 @@ campaign:
       title: "Stable Diffusion on Azure ML"
       description: "How to run Stable Diffusion Web UI on Azure ML compute instances"
       authors: [Vlad]
-      keywords: [Machine-Learning, Azure-AI]
+      keywords: [Machine-Learning, Azure-AI, StableDiffusion]
       tags: [ai-april,30-days-of-azure-ai,azure-ml,ml-engineers,app-developers,workshop]
       canonical: https://vladiliescu.net/stable-diffusion-web-ui-on-azure-ml/
       twitter:
@@ -347,7 +347,7 @@ campaign:
     - folder: 2023-04-29-azure-personalizer
       emoji: 🏭
       audience: "Azure AI Workshop"
-      title: "Customer Engagement with Azure Personalizer"
+      title: "Engage with Azure Personalizer"
       description: "Maximizing Business Results with Azure Personalizer: A Machine Learning-Based Service for Personalized Customer Experiences"
       authors: [Arafat]
       keywords: [Personalizers, Cognitive-Services,  Azure-AI]
@@ -360,8 +360,8 @@ campaign:
     - folder: 2023-04-30-recap-final
       emoji: 🏭
       audience: "Azure AI Developers"
-      title: "Continuing the Azure AI Journey✨"
-      description: "Continuing the Azure AI Journey"
+      title: "Continuing your Azure AI Journey✨"
+      description: "Continuing your Azure AI Journey"
       authors: [Dave]
       keywords: [ Azure-AI, Azure-OpenAI-Services, Cognitive-Services, Machine-Learning, MLOps, rai, CoPilot, Blazor ]
       tags: [ai-april,30-days-of-azure-ai,ml-developers,app-developers,azure-ml,azure-open-ai,azure-cognitive-services,responsible-ai,azure-ai-fundamentals]
