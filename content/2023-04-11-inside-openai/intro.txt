@@ -1,0 +1,1 @@
+A fundamental challenge of any new technology is figuring out how to take the first step. In this session of Microsoft Mechanics, let’s listen to distinguished engineer Pablo Castro as he walks us through a progression of short examples that show us how to build more dynamic, interactive and differentiated experiences with Azure OpenAI.

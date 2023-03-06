@@ -36,7 +36,7 @@ campaign:
       emoji: 🧮
       audience: "Azure AI Developers"
       title: "Explore the Azure OpenAI Playground"
-      description: "Exploring Conversational AI with Azure OpenAI Playground"
+      description: "Explore Conversational AI with the Azure OpenAI Service Playground"
       authors: [Valentina]
       keywords: [Azure-OpenAI-Services, Azure-AI]
       tags: [azure-ai, azure-open-ai, 30-days-of-azure-ai]
@@ -48,8 +48,8 @@ campaign:
     - folder: 2023-04-05-exploring-cog-services
       emoji: 🧮
       audience: "Azure AI Developers"
-      title: "Learn Azure Cognitive Services"
-      description: "Exploring Azure's Cognitive Services"
+      title: "AI-Power Apps with Cognitive Services"
+      description: "Build AI-Powered apps with Azure Cognitive Services with ease"
       authors: [Dave]
       keywords: [Cognitive-Services, Azure-AI, vscode]
       tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]
@@ -61,8 +61,8 @@ campaign:
     - folder: 2023-04-06-azure-ml-intro
       emoji: 🧮
       audience: "Azure AI Developers"
-      title: "Intro to Azure ML Key Concepts"
-      description: "Getting Started with Azure ML: An Overview of Key Concepts"
+      title: "Learn key Azure ML Concepts"
+      description: "Learn key Azure ML Concepts with this primer"
       authors: [Bea]
       keywords: [Machine-Learning, Azure-AI]
       tags: [azure-ai, azure-ml, 30-days-of-azure-ai]
@@ -75,7 +75,7 @@ campaign:
       emoji: 🧮
       audience: "Azure AI Developers"
       title: "Guide to Responsible AI (Part 1)"
-      description: "Responsible AI: A Guide to the RAI Dashboard and Azure ML"
+      description: "Get started with Azure Machine Learning Responsible AI components (Part 1)"
       authors: [Ruth]
       keywords: [Machine-Learning, Azure-AI, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
       tags: [azure-ai,responsible-ai,30-days-of-azure-ai,ml-developers,app-developers]
@@ -88,7 +88,7 @@ campaign:
       emoji: 🧮
       audience: "Azure AI Developers"
       title: "AI for Accessibility"
-      description: "Learn about AI for Accessibility"
+      description: "Learn to build AI for everyone with AI for Accessibility"
       authors: [Henk]
       keywords: [Accessibility-Employment, Accessibility-Modern-Life, Accessibility-Human-Connection]
       tags: [ai-april,30-days-of-azure-ai,ml-developers,app-developers,ai-for-accessibility]
@@ -114,7 +114,7 @@ campaign:
       emoji: 🧑‍💻
       audience: "Azure AI App Developers"
       title: "AI-Powered Apps and Azure AI SDKs"
-      description: "Exploring AI-Powered Apps and Azure AI SDKs"
+      description: "Build AI-Powered Apps with the Azure OpenAI and Cognitive Services SDKs"
       authors: [Arun]
       keywords: [Azure-OpenAI-Services, Cognitive-Services, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
@@ -126,8 +126,8 @@ campaign:
     - folder: 2023-04-11-inside-openai
       emoji: 🧑‍💻
       audience: "Azure AI App Developers"
-      title: "Azure OpenAI with Cognitive Search"
-      description: "Azure OpenAI and Cognitive Search: Boosting App Power"
+      title: "Inside look at Azure OpenAI for Devs"
+      description: "Get ready to build dynamic, interactive and differentiated experiences with Azure OpenAI"
       authors: [Heidi]
       keywords: [Azure-OpenAI-Services, Cognitive-Search, Azure-AI]
       tags: [ai-april, azure-open-ai, azure-cognitive-services, app-developers]
@@ -244,7 +244,7 @@ campaign:
       emoji: 🧑🏽‍🔬
       audience: "Azure ML Developers"
       title: "Guide to Responsible AI (Part 2)"
-      description: "Building Responsible AI into Every Model"
+      description: "Get started with the RAI Dashboard and Azure ML (Part 2)"
       authors: [Ruth]
       keywords: [Machine-Learning, Azure-AI, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
       tags: [ai-april,30-days-of-azure-ai,responsible-ai,ml-developers,app-developers,data-scientist]

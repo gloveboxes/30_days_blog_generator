@@ -2,7 +2,7 @@
 slug: {{slug}}-day{{day}}
 title: "{{ day }}. {{ emoji }}{{ title }}"
 authors: {{ authors }}
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -45,11 +45,13 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
 ## Day _{{ day }}_ of #{{ campaign }}
 
-{{ description }}
+**{{ description }}**
 
 {% include 'content/' + folder + '/intro.txt' ignore missing %}
 
 ## What We'll Cover
+
+{% include 'content/' + folder + '/cover.md' ignore missing %}
 
 <!--
 - Covered 1
@@ -59,9 +61,8 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
 ![Empty Banner Placeholder](banner.png)
 
-## Introduction
-
-{% include 'content/' + folder + '/body.txt' ignore missing %}
+{% set template = '## Introduction' %}
+{% include 'content/' + folder + '/body.md' ignore missing %}
 
 <!-- Content for the day goes here. -->
 
