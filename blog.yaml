@@ -52,8 +52,8 @@ campaign:
     - folder: 2023-04-05-exploring-cog-services
       emoji: 🏁
       audience: "Azure AI Developers"
-      title: "Use CoPilot to build a AI Reciept App"
-      description: "Learn how to use CoPilot to build an AI-Powered Recipt Recognition App powered by Azure Form Recognizer"
+      title: "Use CoPilot to build a AI Receipt App"
+      description: "Learn how to use CoPilot to build an AI-Powered Receipt Recognition App powered by Azure Form Recognizer"
       authors: [Dave]
       keywords: [Form-Recognizers, Azure-Applied-AI-Services, CoPilot, vscode, Azure-AI]
       tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]      
