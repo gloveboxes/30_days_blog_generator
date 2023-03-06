@@ -77,7 +77,7 @@ campaign:
       title: "Guide to Responsible AI"
       description: "Responsible AI: A Guide to the RAI Dashboard and Azure ML"
       authors: [Ruth]
-      keywords: [Machine-Learning, Azure-AI, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
+      keywords: [Machine-Learning, Azure-AI, rai, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
       tags: [azure-ai,responsible-ai,30-days-of-azure-ai,ml-developers,app-developers]
       canonical: https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/getting-started-with-azure-machine-learning-responsible-ai/ba-p/3746948
       twitter:
