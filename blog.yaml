@@ -78,8 +78,8 @@ campaign:
     - folder: 2023-04-07-rai-part-1
       emoji: 🏁
       audience: "Azure AI Developers"
-      title: "Guide to Responsible AI (Part 1)"
-      description: "Get started with Azure Machine Learning Responsible AI components (Part 1)"
+      title: "Guide to Debugging Responsible AI"
+      description: "Guide to analyzing ML models for Responsible AI issues (Part 1)"
       authors: [Ruth]
       keywords: [Machine-Learning, Azure-AI, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
       tags: [azure-ai,responsible-ai,30-days-of-azure-ai,ml-developers,app-developers]
