@@ -3,6 +3,7 @@
 from io import BytesIO
 import string
 import os
+import platform
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 import requests
 import oyaml as yaml
@@ -13,7 +14,21 @@ class BANNER:
 
     def __init__(self, file_path, blog_url):
         self.blog_url = blog_url
+
         self.font_folder = '/System/Library/Fonts/Supplemental'
+        self.font_name = 'Verdana.ttf'
+        self.font_bold_name = 'Verdana Bold.ttf'
+
+        if platform.system() == 'Windows':
+            self.font_folder = 'C:\\Windows\\Fonts'
+            self.font_name = 'verdana.ttf'
+            self.font_bold_name = 'verdanab.ttf'
+
+        if platform.system() == 'Linux':
+            self.font_folder = '/usr/share/fonts/truetype/dejavu'
+            self.font_name = 'DejaVuSans.ttf'
+            self.font_bold_name = 'DejaVuSans-Bold.ttf'
+
         with open(file_path, "r", encoding="utf8") as f:
             self.authors = yaml.load(f, Loader=yaml.Loader)
 
@@ -41,7 +56,7 @@ class BANNER:
     def __add_banner_text(self, draw, audience, title, day):
         """Add text to the banner image"""
         # Define the font size and font type
-        font = ImageFont.truetype(os.path.join(self.font_folder, 'Verdana Bold.ttf'), 40)
+        font = ImageFont.truetype(os.path.join(self.font_folder, self.font_bold_name), 40)
         
         printable = set(string.printable)
         audience = ''.join(filter(lambda x: x in printable, audience))
@@ -52,10 +67,10 @@ class BANNER:
         draw.text((36, 76), "{:2d}".format(day), font=font, fill=(127, 127, 127))
         draw.text((100, 74), "|", font=font, fill=(127, 127, 127))
 
-        font = ImageFont.truetype(os.path.join(self.font_folder, 'Verdana Bold.ttf'), 24)
+        font = ImageFont.truetype(os.path.join(self.font_folder, self.font_bold_name), 24)
         draw.text((130, 112), title, font=font, fill=(111, 61, 212))
 
-        font = ImageFont.truetype(os.path.join(self.font_folder, 'Verdana.ttf'), 14)
+        font = ImageFont.truetype(os.path.join(self.font_folder, self.font_name), 14)
         draw.text((640, 6), self.blog_url, font=font, fill=(127, 127, 127))
 
     def __add_profile_image(self, img, draw, item, name, tag, image_url):
@@ -67,7 +82,7 @@ class BANNER:
         if item > len(name_loc) - 1:
             return
 
-        font = ImageFont.truetype(os.path.join(self.font_folder, 'Verdana.ttf'), 15)
+        font = ImageFont.truetype(os.path.join(self.font_folder, self.font_name), 15)
         draw.text(name_loc[item], name, font=font, fill=(127, 127, 127))
         draw.text(tag_loc[item], tag, font=font, fill=(127, 127, 127))
 

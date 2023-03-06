@@ -45,6 +45,8 @@ PLEASE READ THIS BEFORE EDITING THIS FILE
 
 ## Welcome to Day _{{ day }}_ of {{ campaign }}!
 
+{% include 'content/' + folder + '/intro.txt' ignore missing %}
+
 ## What We'll Cover
 
 <!--
