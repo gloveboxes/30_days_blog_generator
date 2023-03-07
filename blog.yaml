@@ -3,7 +3,7 @@
 campaign:
   name: 30DaysOfAzureAI
   slug: "2023"
-  blog_url: "https://aka.ms/ai-april"
+  blog_url: "https://azureaidevs.github.io/hub/ai-april"
   twitter:
     creator: dglover
     site: AzureAdvocates
