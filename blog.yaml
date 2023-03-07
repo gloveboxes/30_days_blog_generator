@@ -6,8 +6,7 @@ campaign:
   blog_url: "https://azureaidevs.github.io/hub/ai-april"
   twitter:
     creator: dglover
-    site: AzureAdvocates
-  
+    site: AzureAdvocates  
 
   days:
     - folder: 2023-03-29-kickoff
