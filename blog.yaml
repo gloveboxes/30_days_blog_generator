@@ -54,7 +54,7 @@ campaign:
       audience: "Azure AI Developers"
       title: "Use CoPilot to build a AI Receipt App"
       description: "Learn how to use CoPilot to build an AI-Powered Receipt Recognition App powered by Azure Form Recognizer"
-      authors: [Dave]
+      authors: [Ruth]
       keywords: [Form-Recognizers, Azure-Applied-AI-Services, CoPilot, vscode, Azure-AI]
       tags: [azure-ai, azure-cognitive-services, 30-days-of-azure-ai]      
       canonical: https://techcommunity.microsoft.com/t5/ai-cognitive-services-blog/how-copilot-helps-developers-generate-code-for-a-form-recognizer/ba-p/3753813
@@ -78,7 +78,7 @@ campaign:
     - folder: 2023-04-07-rai-part-1
       emoji: 🏁
       audience: "Azure AI Developers"
-      title: "Guide to Debugging Responsible AI"
+      title: "Debug models w/ Responsible AI"
       description: "Guide to analyzing ML models for Responsible AI issues (Part 1)"
       authors: [Ruth]
       keywords: [Machine-Learning, Azure-AI, rai-privacy-security, rai-fairness, rai-transparency, rai-accountable, rai-inclusion, rai-reliable]
@@ -117,12 +117,12 @@ campaign:
     - folder: 2023-04-10-azure-cog-openai-sdks
       emoji: 🧑‍💻
       audience: "Azure AI App Developers"
-      title: "AI-Powered Apps and Azure AI SDKs"
-      description: "Build AI-Powered Apps with the Azure OpenAI and Cognitive Services SDKs"
+      title: "Intelligent Apps and Azure AI SDKs"
+      description: "Build Intelligent Apps with the Azure OpenAI and Cognitive Services SDKs"
       authors: [Arun]
       keywords: [Azure-OpenAI-Services, Cognitive-Services, Azure-AI]
       tags: [ai-april, 30-days-of-azure-ai, app-developers]
-      canonical:
+      canonical: https://github.com/Azure-Samples/azure-ai/blob/main/README.md
       twitter:
         creator: dglover
         site: AzureAdvocates
